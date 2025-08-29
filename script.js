@@ -3,7 +3,12 @@ let btn = document.createElement('button')
 btn.textContent = "Click me"
 document.body.appendChild(btn)
 btn.onclick = function () {
+   if( document.body.style.cssText = " Background-color: black; color:white; text-align: center") {
+    document.body.style.cssText = " Background-color: grey; color:green; text-align: center"
+   }
+   else{
     document.body.style.cssText = " Background-color: black; color:white; text-align: center"
+   }
     // if(document.body.style.cssText = "Background-color: yellow") {
     //     document.body.style.cssText = "Background-color: black; color:white"
     // }
@@ -11,7 +16,7 @@ btn.onclick = function () {
     //     document.body.style.backgroundColor = "white"
     // }
 }
-for (let i = 1; i <= 50;i++ ) {
+for (let i = 1; i <= 10;i++ ) {
     let paras = document.createElement('p')
      paras.textContent = 'i am para' + (i)
      document.body.appendChild(paras)
