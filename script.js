@@ -16,7 +16,7 @@ btn.onclick = function () {
     //     document.body.style.backgroundColor = "white"
     // }
 }
-for (let i = 1; i <= 19;i++ ) {
+for (let i = 1; i <= 20;i++ ) {
     let paras = document.createElement('p')
      paras.textContent = 'i am para' + (i)
      document.body.appendChild(paras)
