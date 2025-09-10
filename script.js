@@ -23,7 +23,7 @@ for (let i = 1; i <= 20;i++ ) {
       paras.style.cssText = " Background-color: red; color:yellow"
     // let para = paras[i]
     paras.addEventListener("click", function () {
-        alert("you clicks on " + (i) + "" + "paragraph")
+        alert("you click on " + (i) + "" + "paragraph")
     })
 
    
